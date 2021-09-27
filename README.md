@@ -31,3 +31,7 @@ click ok
 To set this up in your IDE of choice, you can use:
 
 In IntelliJ/Android Studio: "Edit Configurations" (in your run configurations) → "Additional run args".
+
+
+NOTE THIS :
+if some functionalities does not work in your app after this still thhen undo the process and change your dependency SDK to the lower version eg:  from sdk: ">=2.12.0 <3.0.0"  to sdk: ">=2.7.0 <3.0.0"  in your pupspec.yaml file 
